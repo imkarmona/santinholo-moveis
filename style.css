@@ -9,6 +9,14 @@
   box-sizing: border-box;
 }
 
+/* esconder elementos no mobile por media query */
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
 /* colocando plano de fundo no body */
 
 body {
